@@ -145,6 +145,7 @@ button {
 	background-color: rgb(0, 119, 197);
 	border: 1px solid rgb(76, 76, 76);
 	border-radius: 4px;
+	cursor: pointer;
 }
 .h-elems {
 	float: right;
@@ -186,6 +187,7 @@ footer {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 21px;
+	margin-top: 72px;
 }
 .main-logo {
 	background-image: url('./images/index.png');
@@ -230,7 +232,6 @@ footer {
 }
 .f-table {
 	box-sizing: border-box;
-	height: 643px;
 	padding: 30px;
 	width: 380px;
 	border: 1px solid rgb(199, 199, 199);
@@ -270,6 +271,8 @@ footer {
 	height: 34px;
 	line-height: 21.8333px;
 	margin-bottom: 15px;
+	padding-left: 8px;
+	padding-right: 6px;
 }
 .f-disclaimer {
 	color: rgb(68, 68, 68);
@@ -289,4 +292,40 @@ footer {
 	top: -45px;
 	left: 5px;
 	cursor: pointer;
+}
+.f button {
+	box-sizing: border-box;
+	font-size: 15.75px;
+	font-weight: 400;
+	line-height: 22.5px;
+	text-align: center;
+	padding: 6px 12px;
+	width: 318px;
+}
+.f .si {
+	top: -5px;
+}
+.terms {
+	box-sizing: border-box;
+	color: rgb(117, 117, 117);
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 18px;
+	padding-top: 20px;
+	text-align: center;
+}
+.policy {
+	box-sizing: border-box;
+	color: rgb(141, 144, 150);
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 15px;
+	text-align: center;
+	margin: 32px -30px -30px -30px;
+	background-color: rgb(236, 238, 241);
+	padding: 16px;
+}
+.legal {
+	text-align: center;
 }
